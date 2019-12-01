@@ -1,10 +1,8 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
-from manager.models import *
-# Create your views here.
-class UnknownWordView(TemplateView):
-    template_name = "index.html"
+from django.http import HttpResponse
 
-    def get(self, request, *args, **kwargs):
-        context = super(UnknownWordView, self).get_context_data(**kwargs)
-        return render(self.request, self.template_name, context)
+
+# Create your views here.
+
+def hello_template(request):
+    return render(request, 'index.html')

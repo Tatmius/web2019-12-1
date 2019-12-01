@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+import web2019.views as views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('unknown_word/', index.html)
+    path('main_page/', views.hello_template),
+    #url(r'^template/$', views.hello_template, name='hello_template'),
 ]
