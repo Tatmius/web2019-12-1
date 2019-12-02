@@ -20,9 +20,7 @@ def csv_mod_read_row2(path, idx):
 
 def random_scrape():
     number=random.randint(2,16772)
-    print(number)
     url=csv_mod_read_row2('Book1.csv', number)
-    print(url)
     r=urlopen(url[0])
     soup = BeautifulSoup(r,"lxml",from_encoding="shift_jis")
     main_text=(soup.find("div","main_text")).text

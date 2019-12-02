@@ -12,5 +12,5 @@ import web2019.models as models
 def viewFunction(request):
   template_name = "index.html"
   text=models.random_scrape()
-  context = {"text" : text} # <- "text"がテンプレート内での変数名
+  context = {"text" : text}
   return render(request,template_name,context)
