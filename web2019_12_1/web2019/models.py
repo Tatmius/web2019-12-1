@@ -25,6 +25,7 @@ def random_scrape():
     soup = BeautifulSoup(r,"lxml",from_encoding="shift_jis")
     main_text=(soup.find("div","main_text")).text
     
+    
     endtag=re.compile("\n")
     end_tags=endtag.findall(main_text)
 
