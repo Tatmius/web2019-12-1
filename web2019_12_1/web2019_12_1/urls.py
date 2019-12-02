@@ -19,5 +19,5 @@ import web2019.views as views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('main_page/', views.viewFunction),
+    path('unknown_encounter/', views.viewFunction),
 ]

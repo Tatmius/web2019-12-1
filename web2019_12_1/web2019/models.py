@@ -27,7 +27,9 @@ def random_scrape():
     
     endtag=re.compile("\n")
     end_tags=endtag.findall(main_text)
+
     for end_tag in end_tags:
 	    main_text=main_text.replace(end_tag,"<br>")
+    
     r.close()
     return main_text

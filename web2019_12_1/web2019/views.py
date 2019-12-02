@@ -11,6 +11,5 @@ import web2019.models as models
 
 def viewFunction(request):
   template_name = "index.html"
-  text=models.random_scrape()
-  context = {"text" : text}
+  context = {"text" : models.random_scrape()}
   return render(request,template_name,context)
