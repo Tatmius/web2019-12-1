@@ -27,7 +27,9 @@
         <a class="scroll" href="#section02"></a>
     </section>
     <section id="section02">
-    	<div>{{text}}</div>
+    	<div>
+            {% autoescape off %} {{text}} {% endautoescape %}
+        </div>
     </section>
     <script src="{% static 'js/script.js' %}"></script>
     <script src="{% static 'js/jQuery.js' %}"></script>

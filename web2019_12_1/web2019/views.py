@@ -5,11 +5,9 @@ import web2019.models as models
 
 # Create your views here.
 
-def hello_template(request):
-    return render(request, 'index.html')
 
-text=models.random_scrape()
-print(text)
+
+
 
 def viewFunction(request):
   template_name = "index.html"
