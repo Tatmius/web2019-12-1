@@ -9,7 +9,10 @@ def hello_template(request):
     return render(request, 'index.html')
 
 text=models.random_scrape()
+print(text)
+
 def viewFunction(request):
   template_name = "index.html"
+  text=models.random_scrape()
   context = {"text" : text} # <- "text"がテンプレート内での変数名
   return render(request,template_name,context)
