@@ -13,9 +13,9 @@ def viewFunction(request):
   template_name = "index.html"
   soup=models.random_scrape()
   mainText=models.getMainText(soup)
-  title=models.getTitle
+  title=models.getTitle(soup)
   context = {
-    "title":title
+    "title":title,
     "text" : mainText
   }
   return render(request,template_name,context)
