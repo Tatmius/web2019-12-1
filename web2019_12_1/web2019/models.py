@@ -39,3 +39,4 @@ def getMainText(soup):
 def getTitle(soup):
     title=(soup.find("title")).text
     return title
+
