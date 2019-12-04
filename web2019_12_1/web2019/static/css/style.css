@@ -89,6 +89,11 @@ p{
     background-color: #f8f4e6;
 }
 
+.title{
+    font-size: 40px;
+    font-family: hannnari;
+}
+
 .main_text{
     width: 80vw;
     background-color: #f8f4e6;

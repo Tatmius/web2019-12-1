@@ -11,6 +11,11 @@ import web2019.models as models
 
 def viewFunction(request):
   template_name = "index.html"
-  
-  context = {"text" : models.random_scrape()}
+  soup=models.random_scrape()
+  mainText=models.getMainText(soup)
+  title=models.getTitle
+  context = {
+    "title":title
+    "text" : mainText
+  }
   return render(request,template_name,context)

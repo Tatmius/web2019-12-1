@@ -7,12 +7,12 @@ import re
 
 # Create your models here.
 
-def csv_mod_read_row2(path, idx):
+def csvRead(path, num):
     with open(path, 'r',encoding="utf-8") as f:
         reader = csv.reader(f)
         line_num = 0
         while True:
-            if line_num == idx:
+            if line_num == num:
                 return next(reader)
             f.readline()
             line_num += 1
@@ -20,7 +20,7 @@ def csv_mod_read_row2(path, idx):
 
 def random_scrape():
     randInt=random.randint(2,16772)
-    url=csv_mod_read_row2('Book1.csv', randInt)
+    url=csvRead('Book1.csv', randInt)
     r=urlopen(url[0])
     soup = BeautifulSoup(r,"lxml",from_encoding="shift_jis")
     r.close()
