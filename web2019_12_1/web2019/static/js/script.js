@@ -1,9 +1,10 @@
-secion02=document.getElementById("section02");
-secion02.style.display ='none';
+window.onload=function(){
+    secion02=document.getElementById("section02");
+    secion02.style.display ='none';
+}
 
-function scrolldown() {
+document.getElementById("button1").onclick = function() {
     getElementById("section02").style.display = 'block';
-    window.scrollTo(0,100);
 }
 
 function reload(){
