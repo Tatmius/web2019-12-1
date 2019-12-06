@@ -39,7 +39,7 @@ p{
 }
 
 
-#button1{   
+.button{   
     text-decoration: none; 
     margin:50px 40vw 0vh 40vw;
     padding: 10px 5vw 0vh 5vw;
@@ -53,12 +53,12 @@ p{
     border-bottom: 8px solid #737375;
 }
 
-#button1:hover{
+.button:hover{
     background-color: white;
     color: #140666;
 }
 
-#button1:active{
+.button:active{
         transform: translateY(4px);
         border-bottom: none;
 }
@@ -83,4 +83,8 @@ p{
     font-family: hannari;
     font-size: 30px;
 
+}
+
+#reload{
+    margin-bottom: 5vh;
 }
