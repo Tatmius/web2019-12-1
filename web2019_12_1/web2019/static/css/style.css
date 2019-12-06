@@ -39,54 +39,33 @@ p{
 }
 
 
-.scroll{
-    position: absolute;
-    height:70px;
-    width: 70px;
-    left:50%;
-    bottom:10%;
-    margin:6px;
-    border-left: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    -webkit-transform: rotate(-45deg);
-    transform:rotate(-45deg);
-    -webkit-animation: sdb 2s infinite;
-    animation: sdb 2s infinite;
-    box-sizing:border-box;
+.scroll{   
+    text-decoration: none; 
+    margin:50px 40vw 0vh 40vw;
+    padding: 10px 5vw 0vh 5vw;
+    background-color: #e4e3f0;
+    display: inline-block;
+    width: 10vw;
+    text-align: center;
+    font-size: 36px;
+    color: black;
+    border-radius: 8px;
+    border-bottom: 8px solid #737375;
 }
 
 .scroll:hover{
-    border-left: 3px solid #fff;
-    border-bottom: 3px solid #fff;
+    background-color: white;
+    color: #140666;
 }
 
-@-webkit-keyframes sdb{
-	0%{
-		-webkit-transform: rotate(-45ged) translate(0,0);	
-	}
-	20%{
-		-webkit-transform: rotate(-45deg) translate(-10px,10px);	
-	}
-	40%{
-		-webkit-transform: rotate(-45deg) translate(0,0);	
-	}
-}
-
-@keyframes sdb{
-	0%{
-		transform: rotate(-45deg) translate(0,0);	
-	}
-	20%{
-		transform: rotate(-45deg) translate(-10px,10px);	
-	}
-	40%{
-		transform: rotate(-45deg) translate(0,0);	
-	}			
+.scroll:active{
+        transform: translateY(4px);
+        border-bottom: none;
 }
 
 #section02{
     width:100vw;
-    background-color: #f8f4e6;
+    background-color: #ecd0ab;
 }
 
 .bookTitle{
@@ -98,7 +77,7 @@ p{
 
 .main_text{
     width: 80vw;
-    background-color: #f8f4e6;
+    background-color: #ecd0ab;
     margin-left: 5%;
     margin-right: 15%;
     font-family: hannari;
