@@ -4,9 +4,9 @@ window.onload=function(){
 }
 
 document.getElementById("button1").onclick = function() {
-    getElementById("section02").style.display = 'block';
+    document.getElementById("section02").style.display = 'block';
 }
 
-function reload(){
+document.getElementById("reload").onclick=function(){
    location.reload();
 }

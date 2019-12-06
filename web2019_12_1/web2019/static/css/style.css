@@ -39,7 +39,7 @@ p{
 }
 
 
-.scroll{   
+#button1{   
     text-decoration: none; 
     margin:50px 40vw 0vh 40vw;
     padding: 10px 5vw 0vh 5vw;
@@ -53,12 +53,12 @@ p{
     border-bottom: 8px solid #737375;
 }
 
-.scroll:hover{
+#button1:hover{
     background-color: white;
     color: #140666;
 }
 
-.scroll:active{
+#button1:active{
         transform: translateY(4px);
         border-bottom: none;
 }
