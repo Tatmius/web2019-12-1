@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/earlyaccess/hannari.css)
+body{
+    margin-top: 0px;
+    oadding: 0px;
+}
+
+
+#section01{
+    display: block;
+    height:100vh;
+    width: 100vw;
+    background-image: url(../img/top-background.JPG);
+
+}
+
+.title{
+    color: white;
+    font-family:Hannari;
+    font-size: 115px;
+    width:80%;
+    padding-top: 4%;
+    padding-left: 4%;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+
+
+p{
+    margin-top: 0;
+    margin-bottom: 0.7%;
+}
+
+
+.button{   
+    text-decoration: none; 
+    margin:50px 40vw 0vh 40vw;
+    padding: 10px 5vw 0vh 5vw;
+    background-color: #e4e3f0;
+    display: inline-block;
+    width: 10vw;
+    text-align: center;
+    font-size: 36px;
+    color: black;
+    border-radius: 8px;
+    border-bottom: 8px solid #737375;
+}
+
+.button:hover{
+    background-color: white;
+    color: #140666;
+}
+
+.button:active{
+        transform: translateY(4px);
+        border-bottom: none;
+}
+
+#section02{
+    width:100vw;
+    background-color: #ecd0ab;
+}
+
+.bookTitle{
+    font-size: 40px;
+    font-family: hannnari;
+    padding-top:7%;
+    margin-left: 5%;
+}
+
+.main_text{
+    width: 80vw;
+    background-color: #ecd0ab;
+    margin-left: 5%;
+    margin-right: 15%;
+    font-family: hannari;
+    font-size: 30px;
+
+}
+
+#reload{
+    margin-bottom: 5vh;
+}
