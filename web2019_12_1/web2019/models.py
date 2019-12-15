@@ -1,5 +1,5 @@
 from django.db import models
-from bs4 import BeautifulSoup
+from beautifulsoup4 import BeautifulSoup
 import random
 from urllib.request import urlopen
 import csv
