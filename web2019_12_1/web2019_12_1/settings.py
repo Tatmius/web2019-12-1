@@ -31,16 +31,20 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'web2019',
+
+     'bs4',
+    'html5lib',
+    'webencodings',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'web2019',
-    'bs4',
-    'html5lib',
-    'webencodings',
+    
+
 ]
 
 MIDDLEWARE = [
