@@ -13,12 +13,6 @@ handlers:
 # Python libraries that use C extensions can
 # only be included if they are part of the App Engine SDK 
 # Using Third Party Libraries: https://cloud.google.com/appengine/docs/python/tools/using-libraries-python-27
-libraries:
-- name: MySQLdb
-  version: 1.2.5
-
-- name: django
-  version: "1.11"
 # [END django_app]
 
 # Google App Engine limits application deployments to 10,000 uploaded files per
