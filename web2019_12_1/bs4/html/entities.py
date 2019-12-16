@@ -2504,6 +2504,6 @@ entitydefs = {}
 
 for (name, codepoint) in name2codepoint.items():
     codepoint2name[codepoint] = name
-    #entitydefs[name] = chr(codepoint)
+    entitydefs[name] = chr(codepoint)
 
 del name, codepoint
