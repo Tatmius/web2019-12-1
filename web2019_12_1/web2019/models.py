@@ -1,10 +1,9 @@
 from django.db import models
 import os, sys
-rootdir = os.path.dirname(os.path.abspath(__file__))
-lib = os.path.join(rootdir, 'lib')
-sys.path.append(lib)
+import logging
+import html5lib
 
-from lib.beautifulsoup4 import BeautifulSoup
+from bs4 import BeautifulSoup
 import random
 from urllib.request import urlopen
 import csv
