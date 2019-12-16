@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'web2019',
+    'bs4',
+    'html5lib',
+    'webencodings',
 ]
 
 MIDDLEWARE = [
