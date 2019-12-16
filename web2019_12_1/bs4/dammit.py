@@ -11,7 +11,7 @@ XML or HTML to reflect a new encoding; that's the tree builder's job.
 __license__ = "MIT"
 
 import codecs
-from entities import codepoint2name
+from html.entities import codepoint2name
 import re
 import logging
 import string
