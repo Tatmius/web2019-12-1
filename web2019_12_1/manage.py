@@ -2,6 +2,13 @@
 import os
 import sys
 
+try:
+  import googleclouddebugger
+  googleclouddebugger.enable()
+except ImportError:
+  pass
+
+
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "web2019_12_1.settings")
     try:
