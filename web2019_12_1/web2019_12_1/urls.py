@@ -19,5 +19,5 @@ import web2019.views as views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('unknown_ocean/', views.viewFunction),
+    path('', views.viewFunction),
 ]
