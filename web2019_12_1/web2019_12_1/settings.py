@@ -36,6 +36,7 @@ INSTALLED_APPS = [
      'bs4',
     'html5lib',
     'webencodings',
+    'lxml',
 
     'django.contrib.admin',
     'django.contrib.auth',
