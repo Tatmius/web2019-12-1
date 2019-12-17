@@ -25,7 +25,7 @@ SECRET_KEY = '6ar7gz06y0&f=8hl#0^jkne6sh+k99b1mvwp0jg+2&%6iy(gz9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['unknown-ocean.appspot.com']
 
 
 # Application definition
