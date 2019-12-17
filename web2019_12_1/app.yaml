@@ -1,6 +1,7 @@
 # [START django_app]
 runtime: python37
 
+entrypoint: gunicorn -b :$PORT web2019_12_1.wsgi:main
 
 handlers:
 - url: /static
