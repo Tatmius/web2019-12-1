@@ -1,7 +1,7 @@
 Django==3.0
 asgiref==3.2.3
 beautifulsoup4==4.6.0
-lxml==4.1.1
+lxml==4.9.1
 html5lib==1.0.1
 certifi==2019.9.11
 chardet==3.0.4
